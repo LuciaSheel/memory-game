@@ -76,7 +76,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px; /* Adjust as needed */
+  height: 60px;
   overflow: hidden; /* Prevents growing */
 }
 

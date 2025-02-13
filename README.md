@@ -24,6 +24,7 @@ To run this game locally, follow these steps:
 
 ## 🙌 Acknowledgments
 
+- Piyush! for starter code and guidance, as part of Circuit Stream's Software Development Bootcamp.
 - [Emojipedia](https://emojipedia.org/) – For providing the emoji references.
-- [ChatGPT](https://openai.com/chatgpt) – For guidance and help in structuring the game logic.
+- [ChatGPT](https://openai.com/chatgpt) – For guidance and help in structuring the game logic and styling.
 

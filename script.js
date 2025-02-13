@@ -66,17 +66,17 @@ function checkMatch() {
     flippedCards = [];
     matchedCards += 2; // Increase match count
     messageDisplay.textContent = 'Good job! 👏';
-    messageDisplay.classList.add("show"); // Show the message
+    messageDisplay.classList.add("show");
 
     // Check if all cards are matched
     if (matchedCards === shuffledEmoji.length) {
       messageDisplay.textContent = 'You won! 🏆';
-      messageDisplay.classList.add("show"); // Ensure message stays visible
+      messageDisplay.classList.add("show");
     }
   } else {
     // No match: Flip the cards back after a short delay
     messageDisplay.textContent = 'Try again! ❌';
-    messageDisplay.classList.add("show"); // Show the message
+    messageDisplay.classList.add("show");
 
     setTimeout(() => {
       firstCard.classList.remove('flipped');
