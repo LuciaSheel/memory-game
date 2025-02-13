@@ -72,10 +72,14 @@ body {
   transform: rotateY(180deg);
 }
 
-/* Message display */
-#messageDisplay {
-  text-align: center;
-  margin-top: 20px;
-  color: #333;
-  min-height: 70px;
+#messageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Adjust as needed */
+  overflow: hidden; /* Prevents growing */
+}
+
+#messageDisplay.show {
+  visibility: visible;
 }
