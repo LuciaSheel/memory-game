@@ -20,11 +20,22 @@ To run this game locally, follow these steps:
 
 1. **Clone the repository** (or download the files):
    ```sh
-   git clone https://github.com/your-username/emoji-card-game.git
+   git clone https://github.com/LuciaSheel/memory-game.git
+
+2. Navigate to the project folder:
+   ```sh
+   cd memory-game
+
+3. Open `index.html` in a browser:
+- If using VS Code, run:
+
+   ```sh
+   code .
+- Or, manually open `index.html` in your browser.
 
 ## 🙌 Acknowledgments
 
-- Piyush! for starter code and guidance, as part of Circuit Stream's Software Development Bootcamp.
+- **Piyush!** 🙌 For starter code and guidance, as part ofthe Circuit Stream Software Development Bootcamp.
 - [Emojipedia](https://emojipedia.org/) – For providing the emoji references.
 - [ChatGPT](https://openai.com/chatgpt) – For guidance and help in structuring the game logic and styling.
 
