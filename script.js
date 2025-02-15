@@ -70,7 +70,7 @@ function checkMatch() {
 
     // Check if all cards are matched
     if (matchedCards === shuffledEmoji.length) {
-      messageDisplay.textContent = 'You won! 🏆';
+      messageDisplay.textContent = 'Success! 🏆';
       messageDisplay.classList.add("show");
     }
   } else {
